@@ -46,7 +46,7 @@ Client.on("message", async (message) => {
 });
 
 Client.on("message", (message) => {
-  if(message.author.bot || messagechannel.type == "dm") return;
+  if(message.author.bot || message.channel.type == "dm") return;
   if(message.content.startsWith(prefix + "interventions")){
     let embedinterventions = new Discord.MessageEmbed()
     .setColor("#ff0005")
