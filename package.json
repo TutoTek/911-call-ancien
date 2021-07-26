@@ -1,0 +1,16 @@
+{
+  "name": "911-call",
+  "version": "1.0.0",
+  "description": "Bot qui déclanche des interventiosn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZeKRoX_YT#4773, Nikho311#4940",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "lowdb": "^1.0.0"
+  }
+}
